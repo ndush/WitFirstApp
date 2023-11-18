@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/union_bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/profile1"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+       android:layout_marginTop="150dp"
+        android:layout_marginEnd="60dp"
+      app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/profile1"/>
+
+
+    <ImageView
+        android:id="@id/profile2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+      app:layout_constraintTop_toBottomOf="@id/profile1"
+        app:layout_constraintEnd_toEndOf="@id/profile1"
+        android:src="@drawable/profile2"/>
+    <TextView
+        android:id="@+id/startedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let Get Started"
+        android:layout_marginTop="48dp"
+        android:textSize="67sp"
+        android:textStyle="bold"
+        android:textColor="#FDF4F4"
+        app:layout_constraintTop_toBottomOf="@id/profile2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grow Together"
+        android:textSize="18sp"
+        android:textColor="#F3ECEC"
+        app:layout_constraintTop_toBottomOf="@id/startedText"
+        />
+    <Button
+        android:id="@+id/joinNowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="JOIN NOW"
+        android:textSize="24sp"
+        android:backgroundTint="#F4EEEE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>
