@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.sigiey.womentechstersfirstapp.CreateNewAccountActivity
+import com.sigiey.womentechstersfirstapp.R
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +24,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(i)
         }
 
-        val loginBtn: Button = findViewById(R.id.loginButton)
+        val loginBtn: Button = findViewById(R.id.login)
         loginBtn.setOnClickListener{
             navigateToLoginPage()
         }
