@@ -36,9 +36,9 @@
         android:layout_height="wrap_content"
         android:text="Let Get Started"
         android:layout_marginTop="48dp"
-        android:textSize="67sp"
+        android:textSize="50sp"
         android:textStyle="bold"
-        android:textColor="#000000"
+        android:textColor="#fff"
         app:layout_constraintTop_toBottomOf="@id/profile2"
         />
 
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:text="Grow Together"
         android:textSize="18sp"
-        android:textColor="#000000"
+        android:textColor="#fff"
         app:layout_constraintTop_toBottomOf="@id/startedText"
         />
     <Button
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:textColor="#000000"
         android:text="JOIN NOW"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:backgroundTint="#F4EEEE"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
