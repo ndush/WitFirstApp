@@ -1,4 +1,4 @@
-package com.wtm.womentechstersfirstapp
+package com.sigiey.womentechstersfirstapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

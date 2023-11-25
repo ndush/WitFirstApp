@@ -1,11 +1,10 @@
-package com.wtm.womentechstersfirstapp
+package com.sigiey.womentechstersfirstapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import com.google.android.material.snackbar.Snackbar
-import com.sigiey.womentechstersfirstapp.R
 
 class ForgotPasswordActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
